@@ -1,0 +1,119 @@
+:root {
+    --dark: #262626;
+    --white: #ffffff;
+    --yellow: #F9B800;
+    --blue: #0052B4;
+    --red: #D80027;
+    --purple: #9747FF;
+    --bage: #FEEDBC;
+
+    --light-0: #FFF1C9;
+    --light-1: #FEEDBC;
+    --light-2: #FFE18B;
+    --light-3: #D3B970;
+    --light-4: #FFBB45;
+
+
+    /* --primary: */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {}
+}
+
+
+.text-dark {
+    color: var(--dark);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-bage {
+    color: var(--bage);
+}
+
+.text-light-0 {
+    color: var(--light-0);
+}
+
+.text-light-1 {
+    color: var(--light-1);
+}
+
+.text-light-2 {
+    color: var(--light-2);
+}
+
+.text-light-3 {
+    color: var(--light-3);
+}
+
+.text-light-4 {
+    color: var(--light-4);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-bage {
+    background-color: var(--bage);
+}
+
+.bg-light-0 {
+    background-color: var(--light-0);
+}
+
+.bg-light-1 {
+    background-color: var(--light-1);
+}
+
+.bg-light-2 {
+    background-color: var(--light-2);
+}
+
+.bg-light-3 {
+    background-color: var(--light-3);
+}
+
+.bg-light-4 {
+    background-color: var(--light-4);
+}

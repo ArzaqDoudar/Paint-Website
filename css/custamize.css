@@ -1,0 +1,13 @@
+.mt-20 {
+    margin-top: 20rem;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    /* .mt-lg-0 {
+        margin-top: 0rem !important;
+    } */
+}

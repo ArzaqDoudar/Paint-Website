@@ -1,0 +1,133 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+@import url(./css/colors.css);
+@import url(./css/custamize.css);
+
+
+/* fs-1 = 40px */
+/* fs-2 = 32px */
+/* fs-3 = 28px */
+/* fs-4 = 24px */
+/* fs-5 = 20px */
+/* fs-6 = 16px */
+/* #test {
+    height: 100vh;
+    background: linear-gradient(105deg, black 25%, yellow 25%)
+} */
+
+#yellow-sloped {
+    background: linear-gradient(172deg, #00000000 25%, var(--yellow) calc(25% + 2px));
+    padding-top: 210px;
+}
+
+#dark-sloped {
+    background: linear-gradient(172deg, var(--yellow) 25%, var(--dark) calc(25% + 2px));
+    padding-top: 210px;
+}
+
+/* .sloped-div::before,
+.sloped-div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px;
+
+    background: inherit;
+    z-index: -1;
+} */
+
+/* Moves it up for top slope */
+/* .sloped-div::before {
+    top: -100px;
+    transform: skewY(-5deg);
+} */
+
+/* Moves it down for bottom slope */
+/* .sloped-div::after {
+    bottom: -25px;
+    transform: skewY(5deg);
+} */
+/* @keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.animated-text::before .container {
+    display: inline-block;
+}
+
+.animated-text {
+    overflow: hidden;
+    border-right: .15em solid #990000;
+    white-space: nowrap;
+    animation: typing 5s forwards infinite;
+    width: 0;
+} */
+
+/* Basic styling */
+.fw-bold {
+    font-weight: bold;
+}
+
+.typewriter {
+    right: -10px;
+    left: 0;
+}
+
+.crater {
+    overflow: hidden;
+    /* Hide the text overflow */
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    opacity: 0;
+    border-right: 0.15em solid;
+    /* Cursor effect */
+    animation: pulse 700ms cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    /* Blinking caret */
+}
+
+/* Animation for typing effect */
+#animated-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: max-content;
+    animation: typing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    /* Adjust timing and steps */
+    /* border-right: 0.15em solid; */
+    /* Cursor effect */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+/* Keyframes for typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Keyframes for blinking caret */
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+}
